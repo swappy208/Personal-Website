@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0 auto;
+}
+
+.navbar ul
+{
+    text-align: center;
+
+}
+
+.navbar ul li
+{
+    display: inline;
+}
+
+.navbar ul li a
+{
+    color: lightgoldenrodyellow;
+    background-color: gold; 
+}
+
+.body-content
+{
+    width: fill;
+    height: auto;
+}
+
+.topper
+{
+    height: 600px;
+    width: fill;
+    background-image: url("../images/abstract.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+}
+
+.Name-Tag
+{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #FFFFFF;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 600px;
+}
