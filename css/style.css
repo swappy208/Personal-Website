@@ -8,27 +8,39 @@
 {
     width: fill;
     height: 4vw;
-    background-color: #363664;
+    background-color: #080808;
 }
 
 .navbar ul
 {
     text-align: center;
+    height: 4vw;
 }
 
 .navbar ul li
 {
     display: inline;
-    padding:  0px 20px;
+    padding:  0px 2vw;
+    line-height: 4vw;
 }
 
 .navbar ul li a
 {
     text-decoration: None;
     color: lightgoldenrodyellow;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
     line-height: 4vw;
+}
+
+.navbar ul li:hover
+{
+    background-color: #505050 ;
+}
+
+.navbar ul li:active
+{
+    background-color: #6E6E72 ;
 }
 
 .header
@@ -44,11 +56,13 @@
 
 .header-tag
 {
+    text-align: center;
     align-content: center;
     width: fill;
     font-size: 2vw;
     line-height: 10vw;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .body-content
@@ -59,10 +73,9 @@
 
 .topper
 {
-    height: 600px;
+    height: 25vw;
     width: fill;
-    background-image: url("../images/abstract.jpg");
-    background-attachment: fixed;
+    background-image: url("../images/nepal-parallax.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
@@ -71,9 +84,80 @@
 
 .Name-Tag
 {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FFFFFF;
     font-size: 5vw;
     text-align: center;
-    line-height: 50vw;
+    line-height: 10vw;
+}
+
+.clear
+{
+    height: 0.5vw;
+    width: fill;
+    background-color: #FFFFFF;
+}
+
+.flag
+{
+    height: 50vw;
+    width: fill;
+    background-image: url("../images/flag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+}
+
+.flagdescription
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+    font-size: 2vw;
+    text-align: Center;
+}
+
+.flagdata
+{
+    margin-right: 9vw;
+    margin-top: 14vw;
+    width: 35vw;
+    float: right;
+    background-color: #4B4B4B;
+    opacity: 0.5;
+}
+
+.flagdata p
+{
+    margin-top: 2vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.9vw;
+}
+
+.map
+{
+    height: auto;
+    width: fill;
+}
+
+.topper1
+{
+    height: 25vw;
+    width: fill;
+    background-image: url("../images/abstract.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+}
+
+.Name-Tag
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 25vw;
 }
