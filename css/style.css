@@ -368,3 +368,46 @@
     width: 100vw;
     height: 50vw;
 }
+
+.biography
+{
+    width: 100vw;
+    min-height: 50vw;
+    background-color: #F5E6E6;
+}
+
+.bioname
+{
+    margin: 0 35vw;
+    width: 50vw;
+}
+
+.bioname h1
+{
+    font-family: 'Lobster-Regular';
+    color: #2B2A2A;
+    font-size: 5vw;
+    text-align: center;
+    margin-right: 20vw;
+    padding: 5vw 0;
+}
+
+.mypic
+{
+    width: 30vw;
+    height: auto;
+}
+
+.biography-description
+{
+    width: 50vw;
+    padding: 0 25vw;
+}
+
+.biography-description p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4B4B4B;
+    padding: 2vw 0;
+    font-size: 2vw;
+}
